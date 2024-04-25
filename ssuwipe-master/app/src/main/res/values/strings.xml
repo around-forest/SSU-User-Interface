@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SSUWIPE</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="ssuwipe">SSUWIPE</string>
+    <string name="list">LIST</string>
+    <string name="map">MAP</string>
+    <string name="save">SAVE</string>
+    <string name="like">LIKE</string>
+    <string name="sign_in">회원가입</string>
+    <string name="log_in">로그인</string>
+    <string name="log_out">로그아웃</string>
+    <string name="check_password">비밀번호 확인</string>
+    <string name="password">비밀번호</string>
+    <string name="email">이메일</string>
+    <string name="auto_log_in">자동 로그인</string>
+    <string name="restaurant_info">Restaurant_info</string>
+    <string name="reataurant_name">Reataurant_name</string>
+    <string name="my_restaurant_list">나의 맛집 리스트</string>
+    <string name="goback">뒤로가기</string>
+</resources>

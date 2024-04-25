@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.sothree.slidinguppanel.SlidingUpPanelLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sothree="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sliding_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    sothree:umanoPanelHeight="140dp"
+    sothree:umanoShadowHeight="4dp"
+    tools:context=".SsuwipeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <include layout="@layout/toolbar_layout"
+            android:id="@+id/ssuwipe_toolbar" />
+
+        <com.yuyakaido.android.cardstackview.CardStackView
+            android:id="@+id/ssuwipe_card_stack_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="35sp"
+            android:layout_marginTop="35sp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:layout_weight="1"
+            android:padding="4dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15sp"
+            android:gravity="center"
+            android:text="..."
+            android:textSize="25sp"
+            android:textColor="#4B535D"/>
+        <include layout="@layout/restaurant_info"
+            android:id="@+id/ssuwipe_info_layout"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginRight="30sp"
+            android:layout_marginLeft="30sp"/>
+    </LinearLayout>
+
+
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>

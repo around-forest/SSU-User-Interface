@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:weightSum="10">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:layout_weight="2">
+                <ImageView
+                    android:id="@+id/toolbar_back_btn"
+                    android:layout_gravity="center"
+                    android:layout_width="30sp"
+                    android:layout_height="30sp"
+                    android:src="@drawable/arrow_back"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="TODO"
+                android:fontFamily="@font/vladimir"
+                android:textColor="#FF5252"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:layout_weight="2">
+                <ImageView
+                    android:id="@+id/toolbar_info_btn"
+                    android:layout_gravity="center"
+                    android:layout_width="30sp"
+                    android:layout_height="30sp"
+                    android:src="@drawable/person_48"/>
+            </LinearLayout>
+        </LinearLayout>
+    <View
+        android:background="#D7D9DB"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:gravity="center"
+        tools:ignore="SmallSp" />
+
+
+</LinearLayout>
